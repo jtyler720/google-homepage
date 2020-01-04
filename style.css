@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 27px 10px;
+    font-size: 14px;
+    
+}
+.navleft {
+    float: left;
+}
+.navright {
+    float: right;
+}
+.foot {
+    position: absolute;
+    font-size: 13px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F2F2F3;
+    border-top: 1px #e4e4e4 solid;
+    padding: 10px 10px
+    
+}
+.footleft {
+    float: left;
+}
+.footright {
+    float: right;
+}
+#search {
+    border: 0.5px solid #e6e6e6;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 10px;
+    width: 470px;
+    text-indent: 35px;
+    background: url(search-24px.svg) no-repeat 10px center;
+}
+.sbar {
+    display: flex;
+  justify-content: center;
+}
+button {
+    border: 0.5px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(224, 224, 224);
+    width: 120px;
+  }
+  button:hover {
+    border: 0.5px solid black;
+    background: rgb(243, 243, 243);
+  }
+  button a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+  }
+  a {
+      text-decoration: none;
+      padding-right: 5px;
+      color: #222;
+  }
+  a:hover {
+      text-decoration: underline;
+  }
